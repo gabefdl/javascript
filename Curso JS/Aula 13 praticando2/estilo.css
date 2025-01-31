@@ -1,0 +1,29 @@
+
+    body {
+        background: rgb(35, 110, 216);
+        font: normal 15pt arial;
+    }
+    section {
+        background-color: white;
+        padding: 2%;
+        scroll-margin-bottom: 400px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
+        
+
+    }
+    header {
+        font: 15pt arial;
+        margin-left: 640px;
+        margin-top: 50px;
+        color: white;
+    }
+    footer {
+        margin-left: 670px;
+        color: white;
+    }
+    div {
+        text-align: center;
+        padding: 8px
+    }
+    

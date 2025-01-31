@@ -1,0 +1,30 @@
+header {
+    color: white;
+    text-align: center;
+    font: 15pt arial
+}
+
+body {
+    background: rgb(96, 96, 245);
+}
+footer {
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    
+}
+section {
+    background: white;
+    font-style:normal;
+    margin-bottom: 100px;
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+    padding: 5px;
+    
+
+}
+p {
+    margin-left: 10px;
+}

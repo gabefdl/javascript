@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+    font: 15pt courier;
+    color: black;
+    background-color: whitesmoke;
+    margin-inline-start: 600px;
+    margin-inline-end: 600px;
+    border-radius: 5px;
+}
+body {
+    background: wheat;
+}
+section {
+    background-color: white;
+    text-align: center;
+    font: 12pt normal;
+    margin-inline-start: 350px;
+    margin-inline-end: 350px;
+    border-radius:10cap;
+    padding: 5px;
+}
+h2 {
+    font: normal 7pt;
+}
+footer {
+    text-align: center;
+    background: white;
+    margin-inline-start: 500px;
+    margin-inline-end: 500px;
+    border-radius: 10px;
+    padding: 10px;
+}

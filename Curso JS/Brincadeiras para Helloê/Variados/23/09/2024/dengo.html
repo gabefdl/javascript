@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passe Dengo</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+        <h1>
+           <strong> PASSE DENGO </strong>
+        </h1>
+    </header>
+    <div>
+<section>
+    <p>
+        <strong>Escale de 0 a 10 seu nível de disposição</strong> (0 para sem coragem e 10 topo tudo):
+        <input type="number" name="escala" id="escala">
+        </p>
+   <p>  <strong>Escolha o dia que gostaria: </strong> 
+        <input type="radio" name="raddia" id="sab">
+        <label for="sab">Sábado</label>
+        <input type="radio" name="raddia" id="dom">
+        <label for="dom">Domingo</label>
+   </p>
+   <p>
+       Tendo em vista o tempo curto juntos para estudar pra prova, <strong>dentre os programas listados, escolha até 3(três): </strong>
+   </p>
+    <p>
+      1  <input type="radio" name="radprog1" id="jogar">
+        <label for="jogar">Jogar Videogame</label>
+        <input type="radio" name="radprog1" id="ler">
+        <label for="ler">Ler livro</label>
+        <input type="radio" name="radprog1" id="filme">
+        <label for="filme">Ver filme</label>
+    </p>
+    <p>
+      2  <input type="radio" name="radprog2" id="transar">
+        <label for="transar">Transar</label>
+        <input type="radio" name="radprog2" id="cafe">
+        <label for="cafe">Tomar café</label>
+        <input type="radio" name="radprog2" id="cozinhar">
+        <label for="cozinhar">Eu cozinhar</label>
+    </p>
+    <p>
+      3  <input type="radio" name="radprog3" id="praca">
+        <label for="praca">Ir numa praça</label>
+        <input type="radio" name="radprog3" id="volta">
+        <label for="volta">Dar uma volta</label>
+        <input type="radio" name="radprog3" id="ifood">
+        <label for="ifood">Pedir comida</label>
+   </p>
+<div id="msg">
+<p>
+    <input type="button" value="Criar nossa programação" onclick="criar()">
+</p>
+</div>
+</section>
+    </div>
+    
+    <footer id="msg2">
+    
+    </footer>
+    <script src="comandos.js"></script>
+</body>
+</html>

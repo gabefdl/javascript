@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1> ESTRANGEIRO OU NATIVO BRASIL</h1>
+   <p> Seu país: <input type="text" name="pais" id="IDT"> <input type="button" value="VERIFICAR" onclick="ver()"> </p>
+    <div id="res">RESULTADO</div>
+    <script>
+        function ver() {
+            var nac = window.document.getElementById('IDT')
+            var res = window.document.getElementById('res')
+            var real = String(nac.value)
+            if (real == 'Brasil') {
+                res.innerHTML += `<p>Você é do <strong>Brasil</strong>, você é <strong>brasileiro</strong>!</p>`
+            } else {
+                res.innerHTML += `<p>Você é do país <strong>${real}</strong>, você é <strong>estrangeiro</strong>!</p>`
+            }
+        }
+    </script>
+</body>
+</html> 

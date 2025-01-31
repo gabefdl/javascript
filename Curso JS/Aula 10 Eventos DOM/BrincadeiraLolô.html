@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para o meu amor</title>
+</head>
+<style> 
+        body {
+            background: black;
+        }
+        h1 {    
+            color: black;
+            font: 18pt courier;
+            background: white;
+            width: 160px;
+        }
+        p1 {
+            color: black;
+            background: white;
+            font: 10pt courier;
+            width: 150px;
+        }
+        
+</style>
+<body>
+<h1 id="vdd">
+ Oi, Helloê!
+</h1>
+
+<p1 class="teste" onmouseenter="entrar()">
+Clique no seu nome
+</p1>
+
+
+    <script>
+        addEventListener('click', clicar)
+        addEventListener('mouseenter', entrar) 
+        function clicar () {
+            var b = window.document.getElementById('vdd')
+            b.innerText = 'Ou melhor... Oi, meu amor!'
+            b.style.width = '380px'
+        }
+
+        function entrar () {
+            var c = window.document.querySelector('p1.teste')
+            c.innerText = 'TE AMO'
+        }
+
+    </script>    
+</body>
+</html>

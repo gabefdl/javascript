@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09</title>
+</head>
+<style> 
+    h1 {
+        color: white
+    }
+    p {
+        color: white
+    }
+    div {
+        color: white  
+    } /* o que é div? usa pra agrupar elementos para fins de estilo (usando class . ou ID #) */
+</style>
+<body>
+    <h1 id="cabeca">to testando o que aprendi </h1>
+    <p> oi, testando</p>
+    <p> teste 2</p>
+    <div id="msg"> o que tá acontecendo? </div> <!-- div é um elemento CSS  -->
+    <div class="msg2"> será que uma segunda div vai funcionar?</div>
+    <script>
+        var corpo = window.document.body
+        corpo.style.background = 'black'
+
+        var p1 = window.document.getElementsByTagName('p')[1]
+        p1.innerText = 'agora?' //innertext formata letras e innerhtml formata o comando
+        p1.style.background = 'green'
+
+        var h = window.document.getElementById('cabeca')
+        h.style.color = 'yellow'
+        h.style.background = 'purple'
+
+        var d = window.document.querySelector('div#msg') //id usa #
+        d.style.background = 'green' //o queryselector é o mais importante
+        
+        var f = window.document.querySelector('div.msg2') //class usa .
+        window.alert (f.innerText)
+
+    </script>
+</body>
+</html>
