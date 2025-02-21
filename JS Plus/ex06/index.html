@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        width: 250px;
+        text-align: center;
+        background-color: lightblue;
+    }
+</style>
+<body>
+
+    <div>
+        <h1>Helloê</h1>
+    </div>
+
+    <!-- <button id="1" onclick="texto(event)">Primeiro clique</button>
+
+    <button id="2" onclick="texto2(event)">Segundo clique</button> -->
+
+    <button id="click">Clique aqui</button>
+
+    <script>
+        let titulo = document.querySelector('h1')
+        let clicar = document.querySelector('#click')
+
+        let documento = document.documentElement 
+
+        clicar.addEventListener('click', function() {
+            titulo.textContent = "Meu amor"
+        })
+
+        clicar.addEventListener('click', function() {
+            console.log('cliquei')
+            console.log(documento)
+        })
+
+
+        /*
+        function texto(e) {
+            let titulo = document.querySelector('h1')
+            titulo.innerText = "Eu amo"
+        }
+
+        function texto2(e) {
+            let titulo = document.querySelector('h1').textContent = "Preta"
+        } */
+
+    </script>
+</body>
+</html>

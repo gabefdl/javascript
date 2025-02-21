@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        background-color: lightblue;
+        width: 200px;
+    }
+</style>
+<body>
+    <h1>Helloê</h1>
+
+    <button id="1" onclick="texto(event)">Primeiro clique</button>
+
+    <button id="2" onclick="texto2(event)">Segundo clique</button>
+
+    <script>
+        function texto(e) {
+            let titulo = document.querySelector('h1')
+            titulo.innerText = "Eu amo"
+        }
+
+        function texto2(e) {
+            let titulo = document.querySelector('h1').textContent = "Preta"
+        }
+
+    </script>
+</body>
+</html>
